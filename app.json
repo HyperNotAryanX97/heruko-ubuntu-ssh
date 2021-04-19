@@ -10,6 +10,6 @@
     "ssh"
   ],
   "repository": "https://github.com/sasukeuchiha-clan/heruko-ubuntu-ssh",
-  "website": "",
-  "success_url": "",
+  "website": "Test.com",
+  "success_url": ".com",
   "stack": "container"
