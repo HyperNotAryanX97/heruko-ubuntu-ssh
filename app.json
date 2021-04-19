@@ -12,4 +12,11 @@
   "repository": "https://github.com/sasukeuchiha-clan/heruko-ubuntu-ssh",
   "website": "Test.com",
   "success_url": ".com",
-  "stack": "container"
+  "stack": "container",
+  "env": {
+    "TestENV": {
+      "description": "",
+      "value": ""
+    }
+  }
+}
