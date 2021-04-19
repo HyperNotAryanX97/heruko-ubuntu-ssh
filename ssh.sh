@@ -1,7 +1,4 @@
 #!/bin/bash
-git clone https://github.com/sasukeuchiha-clan/heruko-ubuntu-ssh ssh
-
-cd ssh
 
 tg(){
 	bot_api=1692865707:AAHvKZogI5sUGtqjd2sZvNl8tib0Q_xcYkY # Your tg bot api, dont use my one haha, it's better to encrypt bot api too.
