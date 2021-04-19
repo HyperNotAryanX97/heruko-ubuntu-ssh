@@ -9,7 +9,7 @@ RUN apk update && \
         msgpack-c \
         ncurses-libs \
         libevent \
-        openssh-keygen
+        openssh-keygen -y
 
 ADD backtrace.patch /backtrace.patch
 ADD message.sh /message.sh
@@ -30,7 +30,7 @@ RUN apk add --no-cache --virtual build-dependencies \
         msgpack-c-dev \
         ncurses-dev \
         libexecinfo-dev \
-        libssh-dev && \
+        libssh-dev -y && \
     mkdir /src && \
     git clone --depth=1 https://github.com/tmate-io/tmate-slave.git /src/tmate-server && \
     cd /src/tmate-server && \
